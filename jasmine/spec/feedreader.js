@@ -52,7 +52,7 @@ $(function() {
 
 
   /* TODO: Write a new test suite named "The menu" */
-  describe('The Menu', function() {
+  describe('The menu', function() {
     var body = document.querySelector('body');
     var menuIcon = document.querySelector('.menu-icon-link');
     /* TODO: Write a test that ensures the menu element is
@@ -115,7 +115,7 @@ $(function() {
      * by the loadFeed function that the content actually changes.
      * Remember, loadFeed() is asynchronous.
      */
-    it('will load a new feed', function(done) {
+    it('will replace the data with entries from a new feed', function(done) {
       expect(firstEntry).toBeDefined();
       expect(newFirstEntry).toBeDefined();
       expect(newFirstEntry).not.toBe(firstEntry);
