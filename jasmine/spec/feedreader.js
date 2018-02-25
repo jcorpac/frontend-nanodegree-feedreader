@@ -35,7 +35,7 @@ $(function() {
       allFeeds.forEach(function(feed) {
         expect(feed.url).toBeDefined();
         expect(feed.url.length).toBeGreaterThan(0);
-      })
+      });
     });
 
     /* TODO: Write a test that loops through each feed
@@ -46,7 +46,7 @@ $(function() {
       allFeeds.forEach(function(feed) {
         expect(feed.name).toBeDefined();
         expect(feed.name.length).toBeGreaterThan(0);
-      })
+      });
     });
   });
 
